@@ -12,30 +12,32 @@
 </head>
 <body class="landing">
   <nav class="navbar"> <!-- nav bar -->
-    <%= image_tag("logos/bryce.jpeg", :class => "img") %>
+    <!-- <ul>
+      <li><%= link_to "Home", welcome_index_path %></li>
+      <li><%= link_to "About", welcome_about_path %></li>
+    </ul> -->
   </nav>
+  <section class="hero-content">
+    <h1 class="hero-title">Kyle Kwon Photography</h1>
+  </section>
   <div>
-    <h1>Kyle Kwon Photography</h1>
-    <p id="index-title">Welcome</p>
+    <%= image_tag("welcome/horse.jpeg", :class => "img") %>
+    <%= image_tag("welcome/plant.jpeg", :class => "img") %>
+    <%= image_tag("welcome/ash.jpeg", :class => "img") %>
+    <%= image_tag("welcome/noodles.jpeg", :class => "img") %>
+    <%= image_tag("welcome/sf.jpeg", :class => "img") %>
+    <%= image_tag("welcome/jorkar.jpeg", :class => "img") %>
+    <%= image_tag("welcome/glasses.jpeg", :class => "img") %>
+    <%= image_tag("welcome/kids.jpeg", :class => "img") %>
+    <%= image_tag("welcome/bryce.jpeg", :class => "img") %>
+    <h5></h5>
+    <p></p>
   </div>
   <div>
-    <div>
-      <h5></h5>
-      <p></p>
-    </div>
-    <div>
-      <h5></h5>
-      <p></p>
-    </div>
-    <div>
-      <h5></h5>
-      <p></p>
-    </div>
+    <h5></h5>
+    <p></p>
   </div>
-  <ul>
-    <li><%= link_to "Home", welcome_index_path %></li>
-    <li><%= link_to "About", welcome_about_path %></li>
-  </ul>
+
 
 <%= yield %>
 

@@ -1,14 +1,21 @@
 html {
-    height: 100%; /* makes sure our HTML takes up 100% of the browser window */
-    font-size: 100%;
+  height: 100%; /* makes sure our HTML takes up 100% of the browser window */
+  font-size: 100%;
 }
 
 body {
-    font-family: 'Open Sans'; /* sets our font to the "Open Sans" typeface */
-    color: white;             /* sets the text color to white */
-    min-height: 100%;         /* says the height of the body must be, at minimum, 100% of the window */
+  font-family: 'Open Sans'; /* sets our font to the "Open Sans" typeface */
+  color: black;             /* sets the text color to white */
+  min-height: 100%;         /* says the height of the body must be, at minimum, 100% of the window */
+  text-align: center;
 }
 
 body.landing {
-    background-color: black; /* sets the background color to an RGB value (see below) */
+  background-color: white; /* sets the background color to an RGB value (see below) */
+}
+
+.navbar {
+  padding: 0.5rem;
+  background-color: black;
+  height: 30px;
 }
