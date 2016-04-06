@@ -3,6 +3,10 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 gem 'sprockets-rails', :require => 'sprockets/railtie'
+gem 'aws-sdk', '~> 1.5.7'
+gem 'aws-s3'
+gem 'paperclip' 		# paperclip gem for file management
+gem 'dotenv-rails', :groups => [:development, :production, :test]	# env
 
 group :production do
   gem 'pg'
