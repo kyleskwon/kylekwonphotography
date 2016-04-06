@@ -2,16 +2,19 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
+gem 'sprockets-rails', :require => 'sprockets/railtie'
 
-# #1
 group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
 
-# #2
 group :development do
   gem 'sqlite3'
+end
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.4.2'
 end
 
 # Use SCSS for stylesheets
