@@ -7,6 +7,7 @@ gem 'aws-sdk', '~> 1.5.7'
 gem 'aws-s3'
 gem 'paperclip' 		# paperclip gem for file management
 gem 'dotenv-rails', :groups => [:development, :production, :test]	# env
+gem "figaro"
 
 group :production do
   gem 'pg'
